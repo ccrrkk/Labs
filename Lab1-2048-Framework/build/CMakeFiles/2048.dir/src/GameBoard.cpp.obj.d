@@ -1,6 +1,6 @@
 CMakeFiles/2048.dir/src/GameBoard.cpp.obj: \
- D:\Data\ Structure\Experiments_DataStructure\Lab1-2048-Framework\src\GameBoard.cpp \
- D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/include/GameBoard.h \
+ D:\Data\ Structure\Labs\Lab1-2048-Framework\src\GameBoard.cpp \
+ D:/Data\ Structure/Labs/Lab1-2048-Framework/include/GameBoard.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

@@ -1,5 +1,5 @@
 CMakeFiles/2048.dir/src/main.cpp.obj: \
- D:\Data\ Structure\Experiments_DataStructure\Lab1-2048-Framework\src\main.cpp \
+ D:\Data\ Structure\Labs\Lab1-2048-Framework\src\main.cpp \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -124,8 +124,8 @@ CMakeFiles/2048.dir/src/main.cpp.obj: \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
- D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/include/Game.h \
- D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/include/GameBoard.h \
+ D:/Data\ Structure/Labs/Lab1-2048-Framework/include/Game.h \
+ D:/Data\ Structure/Labs/Lab1-2048-Framework/include/GameBoard.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
@@ -177,5 +177,5 @@ CMakeFiles/2048.dir/src/main.cpp.obj: \
  D:/tool/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
  D:/tool/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
  D:/tool/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
- D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/include/GameRender.h \
- D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/include/InputHandler.h
+ D:/Data\ Structure/Labs/Lab1-2048-Framework/include/GameRender.h \
+ D:/Data\ Structure/Labs/Lab1-2048-Framework/include/InputHandler.h

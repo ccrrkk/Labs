@@ -9,7 +9,7 @@ void TerminalRender::render(const GameBoard &gameBoard, int score, int moveCount
     const auto &board = gameBoard.getBoard();
 
     //读取历史最佳战绩
-    std::ifstream inFile("D:/Data Structure/Experiments_DataStructure/Lab1-2048-Framework/src/history.txt"); 
+    std::ifstream inFile("D:/Data Structure/Labs/Lab1-2048-Framework/src/history.txt"); 
     int BestScore;
 
     if (inFile.is_open()) {

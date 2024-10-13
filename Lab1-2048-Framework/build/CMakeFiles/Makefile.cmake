@@ -121,7 +121,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Cmake/share/cmake-3.31/Modules/Platform/Windows-windres.cmake"
   "D:/Cmake/share/cmake-3.31/Modules/Platform/Windows.cmake"
   "D:/Cmake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake"
-  "D:/Data Structure/Experiments_DataStructure/Lab1-2048-Framework/CMakeLists.txt"
+  "D:/Data Structure/Labs/Lab1-2048-Framework/CMakeLists.txt"
   "CMakeFiles/3.31.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.0-rc1/CMakeRCCompiler.cmake"

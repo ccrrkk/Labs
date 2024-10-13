@@ -64,7 +64,7 @@ int main(){
         if (game.hasWon()) { 
             TerminalRender::displayWinMessage(); 
             //保存最小步骤
-            std::ifstream inFile("D:/Data Structure/Experiments_DataStructure/Lab1-2048-Framework/src/history.txt"); // 打开文件以读取
+            std::ifstream inFile("D:/Data Structure/Labs/Lab1-2048-Framework/src/history.txt"); // 打开文件以读取
             int historyNumber;
 
             // 检查文件是否成功打开并读取数字
@@ -78,7 +78,7 @@ int main(){
             // 比较moveCount和historyNumber
             int moveCount = game.getMoveCount();
             if (moveCount < historyNumber) {
-                std::ofstream outFile("D:/Data Structure/Experiments_DataStructures/Lab1-2048-Framework/src/history.txt"); // 打开文件以写入
+                std::ofstream outFile("D:/Data Structure/Labs/Lab1-2048-Framework/src/history.txt"); // 打开文件以写入
                 if (outFile.is_open()) {
                     outFile << moveCount; // 覆盖写入新的数字
                     outFile.close(); // 关闭文件

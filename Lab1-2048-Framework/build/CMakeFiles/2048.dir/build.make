@@ -52,10 +52,10 @@ RM = D:\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework"
+CMAKE_SOURCE_DIR = "D:\Data Structure\Labs\Lab1-2048-Framework"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build"
+CMAKE_BINARY_DIR = "D:\Data Structure\Labs\Lab1-2048-Framework\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/2048.dir/depend.make
@@ -72,74 +72,74 @@ CMakeFiles/2048.dir/codegen:
 .PHONY : CMakeFiles/2048.dir/codegen
 
 CMakeFiles/2048.dir/src/main.cpp.obj: CMakeFiles/2048.dir/flags.make
-CMakeFiles/2048.dir/src/main.cpp.obj: D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/src/main.cpp
+CMakeFiles/2048.dir/src/main.cpp.obj: D:/Data\ Structure/Labs/Lab1-2048-Framework/src/main.cpp
 CMakeFiles/2048.dir/src/main.cpp.obj: CMakeFiles/2048.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2048.dir/src/main.cpp.obj"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/main.cpp.obj -MF CMakeFiles\2048.dir\src\main.cpp.obj.d -o CMakeFiles\2048.dir\src\main.cpp.obj -c "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Labs\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2048.dir/src/main.cpp.obj"
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/main.cpp.obj -MF CMakeFiles\2048.dir\src\main.cpp.obj.d -o CMakeFiles\2048.dir\src\main.cpp.obj -c "D:\Data Structure\Labs\Lab1-2048-Framework\src\main.cpp"
 
 CMakeFiles/2048.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2048.dir/src/main.cpp.i"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\main.cpp" > CMakeFiles\2048.dir\src\main.cpp.i
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Labs\Lab1-2048-Framework\src\main.cpp" > CMakeFiles\2048.dir\src\main.cpp.i
 
 CMakeFiles/2048.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2048.dir/src/main.cpp.s"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\main.cpp" -o CMakeFiles\2048.dir\src\main.cpp.s
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Labs\Lab1-2048-Framework\src\main.cpp" -o CMakeFiles\2048.dir\src\main.cpp.s
 
 CMakeFiles/2048.dir/src/Game.cpp.obj: CMakeFiles/2048.dir/flags.make
-CMakeFiles/2048.dir/src/Game.cpp.obj: D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/src/Game.cpp
+CMakeFiles/2048.dir/src/Game.cpp.obj: D:/Data\ Structure/Labs/Lab1-2048-Framework/src/Game.cpp
 CMakeFiles/2048.dir/src/Game.cpp.obj: CMakeFiles/2048.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2048.dir/src/Game.cpp.obj"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/Game.cpp.obj -MF CMakeFiles\2048.dir\src\Game.cpp.obj.d -o CMakeFiles\2048.dir\src\Game.cpp.obj -c "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Labs\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2048.dir/src/Game.cpp.obj"
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/Game.cpp.obj -MF CMakeFiles\2048.dir\src\Game.cpp.obj.d -o CMakeFiles\2048.dir\src\Game.cpp.obj -c "D:\Data Structure\Labs\Lab1-2048-Framework\src\Game.cpp"
 
 CMakeFiles/2048.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2048.dir/src/Game.cpp.i"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\Game.cpp" > CMakeFiles\2048.dir\src\Game.cpp.i
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Labs\Lab1-2048-Framework\src\Game.cpp" > CMakeFiles\2048.dir\src\Game.cpp.i
 
 CMakeFiles/2048.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2048.dir/src/Game.cpp.s"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\Game.cpp" -o CMakeFiles\2048.dir\src\Game.cpp.s
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Labs\Lab1-2048-Framework\src\Game.cpp" -o CMakeFiles\2048.dir\src\Game.cpp.s
 
 CMakeFiles/2048.dir/src/GameBoard.cpp.obj: CMakeFiles/2048.dir/flags.make
-CMakeFiles/2048.dir/src/GameBoard.cpp.obj: D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/src/GameBoard.cpp
+CMakeFiles/2048.dir/src/GameBoard.cpp.obj: D:/Data\ Structure/Labs/Lab1-2048-Framework/src/GameBoard.cpp
 CMakeFiles/2048.dir/src/GameBoard.cpp.obj: CMakeFiles/2048.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2048.dir/src/GameBoard.cpp.obj"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/GameBoard.cpp.obj -MF CMakeFiles\2048.dir\src\GameBoard.cpp.obj.d -o CMakeFiles\2048.dir\src\GameBoard.cpp.obj -c "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\GameBoard.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Labs\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2048.dir/src/GameBoard.cpp.obj"
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/GameBoard.cpp.obj -MF CMakeFiles\2048.dir\src\GameBoard.cpp.obj.d -o CMakeFiles\2048.dir\src\GameBoard.cpp.obj -c "D:\Data Structure\Labs\Lab1-2048-Framework\src\GameBoard.cpp"
 
 CMakeFiles/2048.dir/src/GameBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2048.dir/src/GameBoard.cpp.i"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\GameBoard.cpp" > CMakeFiles\2048.dir\src\GameBoard.cpp.i
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Labs\Lab1-2048-Framework\src\GameBoard.cpp" > CMakeFiles\2048.dir\src\GameBoard.cpp.i
 
 CMakeFiles/2048.dir/src/GameBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2048.dir/src/GameBoard.cpp.s"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\GameBoard.cpp" -o CMakeFiles\2048.dir\src\GameBoard.cpp.s
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Labs\Lab1-2048-Framework\src\GameBoard.cpp" -o CMakeFiles\2048.dir\src\GameBoard.cpp.s
 
 CMakeFiles/2048.dir/src/InputHandler.cpp.obj: CMakeFiles/2048.dir/flags.make
-CMakeFiles/2048.dir/src/InputHandler.cpp.obj: D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/src/InputHandler.cpp
+CMakeFiles/2048.dir/src/InputHandler.cpp.obj: D:/Data\ Structure/Labs/Lab1-2048-Framework/src/InputHandler.cpp
 CMakeFiles/2048.dir/src/InputHandler.cpp.obj: CMakeFiles/2048.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/2048.dir/src/InputHandler.cpp.obj"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/InputHandler.cpp.obj -MF CMakeFiles\2048.dir\src\InputHandler.cpp.obj.d -o CMakeFiles\2048.dir\src\InputHandler.cpp.obj -c "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\InputHandler.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Labs\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/2048.dir/src/InputHandler.cpp.obj"
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/InputHandler.cpp.obj -MF CMakeFiles\2048.dir\src\InputHandler.cpp.obj.d -o CMakeFiles\2048.dir\src\InputHandler.cpp.obj -c "D:\Data Structure\Labs\Lab1-2048-Framework\src\InputHandler.cpp"
 
 CMakeFiles/2048.dir/src/InputHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2048.dir/src/InputHandler.cpp.i"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\InputHandler.cpp" > CMakeFiles\2048.dir\src\InputHandler.cpp.i
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Labs\Lab1-2048-Framework\src\InputHandler.cpp" > CMakeFiles\2048.dir\src\InputHandler.cpp.i
 
 CMakeFiles/2048.dir/src/InputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2048.dir/src/InputHandler.cpp.s"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\InputHandler.cpp" -o CMakeFiles\2048.dir\src\InputHandler.cpp.s
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Labs\Lab1-2048-Framework\src\InputHandler.cpp" -o CMakeFiles\2048.dir\src\InputHandler.cpp.s
 
 CMakeFiles/2048.dir/src/GameRender.cpp.obj: CMakeFiles/2048.dir/flags.make
-CMakeFiles/2048.dir/src/GameRender.cpp.obj: D:/Data\ Structure/Experiments_DataStructure/Lab1-2048-Framework/src/GameRender.cpp
+CMakeFiles/2048.dir/src/GameRender.cpp.obj: D:/Data\ Structure/Labs/Lab1-2048-Framework/src/GameRender.cpp
 CMakeFiles/2048.dir/src/GameRender.cpp.obj: CMakeFiles/2048.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2048.dir/src/GameRender.cpp.obj"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/GameRender.cpp.obj -MF CMakeFiles\2048.dir\src\GameRender.cpp.obj.d -o CMakeFiles\2048.dir\src\GameRender.cpp.obj -c "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\GameRender.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structure\Labs\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/2048.dir/src/GameRender.cpp.obj"
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2048.dir/src/GameRender.cpp.obj -MF CMakeFiles\2048.dir\src\GameRender.cpp.obj.d -o CMakeFiles\2048.dir\src\GameRender.cpp.obj -c "D:\Data Structure\Labs\Lab1-2048-Framework\src\GameRender.cpp"
 
 CMakeFiles/2048.dir/src/GameRender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2048.dir/src/GameRender.cpp.i"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\GameRender.cpp" > CMakeFiles\2048.dir\src\GameRender.cpp.i
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structure\Labs\Lab1-2048-Framework\src\GameRender.cpp" > CMakeFiles\2048.dir\src\GameRender.cpp.i
 
 CMakeFiles/2048.dir/src/GameRender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2048.dir/src/GameRender.cpp.s"
-	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\src\GameRender.cpp" -o CMakeFiles\2048.dir\src\GameRender.cpp.s
+	D:\tool\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structure\Labs\Lab1-2048-Framework\src\GameRender.cpp" -o CMakeFiles\2048.dir\src\GameRender.cpp.s
 
 # Object files for target 2048
 2048_OBJECTS = \
@@ -161,7 +161,7 @@ CMakeFiles/2048.dir/src/GameRender.cpp.s: cmake_force
 2048.exe: CMakeFiles/2048.dir/linkLibs.rsp
 2048.exe: CMakeFiles/2048.dir/objects1.rsp
 2048.exe: CMakeFiles/2048.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 2048.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Data Structure\Labs\Lab1-2048-Framework\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 2048.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\2048.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/2048.dir/clean:
 .PHONY : CMakeFiles/2048.dir/clean
 
 CMakeFiles/2048.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework" "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework" "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build" "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build" "D:\Data Structure\Experiments_DataStructure\Lab1-2048-Framework\build\CMakeFiles\2048.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Data Structure\Labs\Lab1-2048-Framework" "D:\Data Structure\Labs\Lab1-2048-Framework" "D:\Data Structure\Labs\Lab1-2048-Framework\build" "D:\Data Structure\Labs\Lab1-2048-Framework\build" "D:\Data Structure\Labs\Lab1-2048-Framework\build\CMakeFiles\2048.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/2048.dir/depend
 
