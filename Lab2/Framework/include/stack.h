@@ -1,6 +1,7 @@
 #pragma once
 
 #include "list.h"
+#include <stdexcept>
 
 namespace DATA_STRUCTURE {
 
@@ -11,22 +12,29 @@ class stack : public list<data_base> {
         ~stack() = default;
 
         bool empty() override {
-            // TODO
+            if(top_index!=0) return false;
             return true;
         }
         void pop() override {
-            // TODO
+            if (!empty()) {
+                --top_index;
+            }
         }
         data_base top() override {
-            // TODO
-            data_base tmp;
-            return tmp;
+        if (!empty()) {
+            data_base temp = list_data[top_index - 1];
+            return temp;
         }
+        throw std::out_of_range("Stack is empty");  // EMPTY
+    }
         void push(data_base push_data) override {
-            // TODO
+            if (top_index >= MAX_LINK_LIST_NUM) {
+                throw std::overflow_error("Stack is full");  // OVERFLOW
+            }
+            list_data[top_index++] = push_data;
         }
         void clear() override {
-            // TODO
+            top_index = 0;
         }
     private:
         int top_index = 0;

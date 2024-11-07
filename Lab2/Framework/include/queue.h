@@ -1,6 +1,7 @@
 #pragma once
 
 #include "list.h"
+#include <stdexcept>
 
 namespace DATA_STRUCTURE {
 
@@ -11,22 +12,34 @@ class queue : public list<data_base> {
         ~queue() = default;
 
         bool empty() override {
-            // TODO
+            if(top_index!=tail_index) return false;
             return true;
         }
         void pop() override {
-            // TODO
+            if(!empty()){
+                tail_index = (tail_index+1) % MAX_LINK_LIST_NUM;
+            } 
+            else {
+                throw std::out_of_range("the queue is empty!");
+            }
         }
         data_base top() override {
-            // TODO
-            data_base tmp;
-            return tmp;
+            if(!empty()){
+                return list_data[tail_index]; // 队列的头部是tail_index指向的元素!!
+            }
+            throw std::out_of_range("the queue is empty!");
         }
         void push(data_base push_data) override {
-            // TODO
+            if((top_index+1)%MAX_LINK_LIST_NUM!=tail_index){
+                list_data[top_index] = push_data; 
+                top_index = (top_index+1)%MAX_LINK_LIST_NUM;            
+            }
+            else{
+                throw std::overflow_error("the queue is full!");
+            }
         }
         void clear() override {
-            // TODO
+            top_index = tail_index = 0;
         }
     private:
         int top_index = 0;

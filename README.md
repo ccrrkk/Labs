@@ -1,6 +1,20 @@
 # Experiments
 This repository publish our experiments, frameworks and answers, data structure 2024, USTC, Teacher: Mingjun Xiao, TAs: Daoyu Wang, Jiabing Ou, Qingtian He, Bowen Wang
 
+## CMAKE使用方式：
+
+1. mkdir build ; cd build
+2. cmake .. -G "MinGW Makefiles"
+3. mingw32-make
+4. (如无问题，应该生成了exe文件)./XXX.exe
+
+## CMAKE下调试的方式
+1. cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug
+2. mingw32-make
+3. 按下F5开始调试
+
+**注意**：此时有可能无法正常调试，会显示XX不存在之类的字样，这是由于我们这个文件夹中实际上存在多个多文件项目，需要修改.vscode中的文件路径。
+方法：打开.vscode/launch.json,将"program"和"cwd"两行的路径改为实际项目的路径。
 
 ```
 Labs

@@ -1,7 +1,7 @@
 #include <string>
 #include <math.h>
 
-#include "Lab2/Framework/include/stack.h"
+#include "stack.h"
 
 namespace DATA_STRUCTURE {
 
