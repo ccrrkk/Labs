@@ -49,7 +49,7 @@ CMAKE_AR:FILEPATH=D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/bi
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON

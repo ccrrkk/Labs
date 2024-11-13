@@ -22,6 +22,7 @@ class calculator {
 
         std::string get_expr();
         struct element get_ans();
+        bool legal_op(char ch);
         bool legal();
     private:
         std::string expr = "1+2*(3-1+4)";
@@ -29,7 +30,7 @@ class calculator {
         stack<struct element> num;
         stack<char> op;
 
-        struct element read_num();
+        struct element read_num(int& i);
         int priority_regular(char c);
         int priority(char c1, char c2);
         struct element operate(struct element element1, char c, struct element element2);

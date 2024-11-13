@@ -16,80 +16,65 @@ This repository publish our experiments, frameworks and answers, data structure 
 **注意**：此时有可能无法正常调试，会显示XX不存在之类的字样，这是由于我们这个文件夹中实际上存在多个多文件项目，需要修改.vscode中的文件路径。
 方法：打开.vscode/launch.json,将"program"和"cwd"两行的路径改为实际项目的路径。
 
+
 ```
 Labs
-├─ 📁Lab1-2048-Framework
-│  ├─ 📁build
-│  │  ├─ 📁CMakeFiles
-│  │  │  ├─ 📁2048.dir
-│  │  │  │  ├─ 📁src
-│  │  │  │  │  ├─ 📄Game.cpp.obj
-│  │  │  │  │  ├─ 📄Game.cpp.obj.d
-│  │  │  │  │  ├─ 📄GameBoard.cpp.obj
-│  │  │  │  │  ├─ 📄GameBoard.cpp.obj.d
-│  │  │  │  │  ├─ 📄GameRender.cpp.obj
-│  │  │  │  │  ├─ 📄GameRender.cpp.obj.d
-│  │  │  │  │  ├─ 📄InputHandler.cpp.obj
-│  │  │  │  │  ├─ 📄InputHandler.cpp.obj.d
-│  │  │  │  │  ├─ 📄main.cpp.obj
-│  │  │  │  │  └─ 📄main.cpp.obj.d
-│  │  │  │  ├─ 📄build.make
-│  │  │  │  ├─ 📄cmake_clean.cmake
-│  │  │  │  ├─ 📄compiler_depend.make
-│  │  │  │  ├─ 📄compiler_depend.ts
-│  │  │  │  ├─ 📄depend.make
-│  │  │  │  ├─ 📄DependInfo.cmake
-│  │  │  │  ├─ 📄flags.make
-│  │  │  │  ├─ 📄link.txt
-│  │  │  │  ├─ 📄linkLibs.rsp
-│  │  │  │  ├─ 📄objects.a
-│  │  │  │  ├─ 📄objects1.rsp
-│  │  │  │  └─ 📄progress.make
-│  │  │  ├─ 📁3.31.0-rc1
-│  │  │  │  ├─ 📁CompilerIdC
-│  │  │  │  │  ├─ 📁tmp
-│  │  │  │  │  ├─ 📄a.exe
-│  │  │  │  │  └─ 📄CMakeCCompilerId.c
-│  │  │  │  ├─ 📁CompilerIdCXX
-│  │  │  │  │  ├─ 📁tmp
-│  │  │  │  │  ├─ 📄a.exe
-│  │  │  │  │  └─ 📄CMakeCXXCompilerId.cpp
-│  │  │  │  ├─ 📄CMakeCCompiler.cmake
-│  │  │  │  ├─ 📄CMakeCXXCompiler.cmake
-│  │  │  │  ├─ 📄CMakeDetermineCompilerABI_C.bin
-│  │  │  │  ├─ 📄CMakeDetermineCompilerABI_CXX.bin
-│  │  │  │  ├─ 📄CMakeRCCompiler.cmake
-│  │  │  │  └─ 📄CMakeSystem.cmake
-│  │  │  ├─ 📁CMakeScratch
-│  │  │  ├─ 📁pkgRedirects
-│  │  │  ├─ 📄cmake.check_cache
-│  │  │  ├─ 📄CMakeConfigureLog.yaml
-│  │  │  ├─ 📄CMakeDirectoryInformation.cmake
-│  │  │  ├─ 📄Makefile.cmake
-│  │  │  ├─ 📄Makefile2
-│  │  │  ├─ 📄progress.marks
-│  │  │  └─ 📄TargetDirectories.txt
-│  │  ├─ 📄2048.exe
-│  │  ├─ 📄CMakeCache.txt
-│  │  ├─ 📄cmake_install.cmake
-│  │  └─ 📄Makefile
-│  ├─ 📁include
-│  │  ├─ 📄Game.h
-│  │  ├─ 📄GameBoard.h
-│  │  ├─ 📄GameRender.h
-│  │  └─ 📄InputHandler.h
-│  ├─ 📁src
-│  │  ├─ 📁output
-│  │  ├─ 📄Game.cpp
-│  │  ├─ 📄GameBoard.cpp
-│  │  ├─ 📄GameRender.cpp
-│  │  ├─ 📄history.txt
-│  │  ├─ 📄InputHandler.cpp
-│  │  └─ 📄main.cpp
-│  ├─ 📄CMakeLists.txt
-│  └─ 📄test.md
 ├─ 📁Lab2
 │  ├─ 📁Framework
+│  │  ├─ 📁build
+│  │  │  ├─ 📁CMakeFiles
+│  │  │  │  ├─ 📁3.31.0-rc1
+│  │  │  │  │  ├─ 📁CompilerIdC
+│  │  │  │  │  │  ├─ 📁tmp
+│  │  │  │  │  │  ├─ 📄a.exe
+│  │  │  │  │  │  └─ 📄CMakeCCompilerId.c
+│  │  │  │  │  ├─ 📁CompilerIdCXX
+│  │  │  │  │  │  ├─ 📁tmp
+│  │  │  │  │  │  ├─ 📄a.exe
+│  │  │  │  │  │  └─ 📄CMakeCXXCompilerId.cpp
+│  │  │  │  │  ├─ 📄CMakeCCompiler.cmake
+│  │  │  │  │  ├─ 📄CMakeCXXCompiler.cmake
+│  │  │  │  │  ├─ 📄CMakeDetermineCompilerABI_C.bin
+│  │  │  │  │  ├─ 📄CMakeDetermineCompilerABI_CXX.bin
+│  │  │  │  │  ├─ 📄CMakeRCCompiler.cmake
+│  │  │  │  │  └─ 📄CMakeSystem.cmake
+│  │  │  │  ├─ 📁pkgRedirects
+│  │  │  ├─ 📁src
+│  │  │  │  ├─ 📁1_Test
+│  │  │  │  │  ├─ 📁CMakeFiles
+│  │  │  │  │  │  ├─ 📁1_Test.dir
+│  │  │  │  ├─ 📁2_Expression
+│  │  │  │  │  ├─ 📁CMakeFiles
+│  │  │  │  │  │  ├─ 📁2_Expression.dir
+│  │  │  │  │  │  ├─ 📄CMakeDirectoryInformation.cmake
+│  │  │  │  │  │  └─ 📄progress.marks
+│  │  │  │  │  ├─ 📄2_Expression.exe
+│  │  │  │  │  ├─ 📄cmake_install.cmake
+│  │  │  │  │  └─ 📄Makefile
+│  │  │  │  ├─ 📁3_Robot
+│  │  │  │  │  ├─ 📁CMakeFiles
+│  │  │  │  │  │  ├─ 📁3_Robot.dir
+│  │  │  │  │  │  ├─ 📄CMakeDirectoryInformation.cmake
+│  │  │  │  │  │  └─ 📄progress.marks
+│  │  │  │  │  ├─ 📄3_Robot.exe
+│  │  │  │  │  ├─ 📄cmake_install.cmake
+│  │  │  │  │  └─ 📄Makefile
+│  │  │  │  ├─ 📁CMakeFiles
+│  │  │  │  │  ├─ 📄CMakeDirectoryInformation.cmake
+│  │  │  │  │  └─ 📄progress.marks
+│  │  │  │  ├─ 📁structures
+│  │  │  │  │  ├─ 📁CMakeFiles
+│  │  │  │  │  │  ├─ 📁structures.dir
+│  │  │  │  │  │  ├─ 📄CMakeDirectoryInformation.cmake
+│  │  │  │  │  │  └─ 📄progress.marks
+│  │  │  │  │  ├─ 📄cmake_install.cmake
+│  │  │  │  │  ├─ 📄libstructures.a
+│  │  │  │  │  └─ 📄Makefile
+│  │  │  │  ├─ 📄cmake_install.cmake
+│  │  │  │  └─ 📄Makefile
+│  │  │  ├─ 📄CMakeCache.txt
+│  │  │  ├─ 📄cmake_install.cmake
+│  │  │  └─ 📄Makefile
 │  │  ├─ 📁include
 │  │  │  ├─ 📄list.h
 │  │  │  ├─ 📄queue.h
@@ -138,6 +123,6 @@ Labs
 │  │  │  ├─ 📄._.DS_Store
 │  │  │  └─ 📄._CMakeLists.txt
 │  │  └─ 📄._Framework
-│  └─ 📄Lab2-exp-manual-v2.pdf
+├─ 📄.gitignore
 └─ 📄README.md
 ```
