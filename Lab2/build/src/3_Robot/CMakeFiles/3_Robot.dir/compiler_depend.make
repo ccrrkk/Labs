@@ -49,12 +49,15 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/Labs/Lab2/src/3_Robot/main.c
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/specfun.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_abs.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algobase.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_construct.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_function.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator_base_types.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_pair.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf.tcc \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf_iterator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/string_view.tcc \
@@ -62,6 +65,7 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/Labs/Lab2/src/3_Robot/main.c
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno \
@@ -112,6 +116,7 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/Labs/Lab2/src/3_Robot/main.c
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tuple \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/type_traits \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -205,12 +210,15 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/Labs/Lab2/src/3_Robot/walk.c
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/specfun.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/std_abs.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algobase.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_construct.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_function.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_iterator_base_types.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_pair.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf.tcc \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf_iterator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/string_view.tcc \
@@ -218,6 +226,7 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/Labs/Lab2/src/3_Robot/walk.c
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno \
@@ -268,6 +277,7 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/Labs/Lab2/src/3_Robot/walk.c
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tuple \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/type_traits \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo \
+  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -398,8 +408,6 @@ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-m
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/functional_hash.h:
 
-D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h:
-
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/hash_bytes.h:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc:
@@ -411,6 +419,8 @@ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-m
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets.h:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets.tcc:
+
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/x86_64-w64-mingw32/include/corecrt.h:
 
@@ -424,15 +434,11 @@ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-m
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/new_allocator.h:
 
-D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype:
-
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream_insert.h:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/x86_64-w64-mingw32/include/locale.h:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/predefined_ops.h:
-
-D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ptr_traits.h:
 
@@ -452,6 +458,10 @@ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-m
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_pair.h:
 
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h:
+
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h:
+
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf.tcc:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/streambuf_iterator.h:
@@ -459,6 +469,14 @@ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-m
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/string_view.tcc:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator.h:
+
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc:
+
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/version.h:
+
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cctype:
+
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cwctype:
 
@@ -549,6 +567,8 @@ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-m
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/type_traits:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo:
+
+D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector:
 
 D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 

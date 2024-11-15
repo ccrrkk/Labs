@@ -150,5 +150,10 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: \
  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_hermite.tcc \
  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/poly_laguerre.tcc \
  D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tr1/riemann_zeta.tcc \
+ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
+ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
+ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
+ D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
  D:/Labs/Lab2/include/queue.h D:/Labs/Lab2/include/list.h \
  D:/Labs/Lab2/include/unordered_set.h
