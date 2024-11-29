@@ -9,40 +9,57 @@ BinaryTreeNode::BinaryTreeNode() : left(nullptr), right(nullptr) {}
 
 // 先序遍历的实现：访问根节点，然后先序遍历左子树，再先序遍历右子树
 void BinaryTreeNode::PreOrderTraverse(BinaryTreeNode* root) {
-    // 使用getValue()函数获得节点的值
-    // TODO
+    if(!root) return;
+    cout<<root->name<<endl;
+    PreOrderTraverse(root->left);
+    PreOrderTraverse(root->right);
 }
 
 // 中序遍历的实现：先中序遍历左子树，再访问根节点，最后中序遍历右子树
 void BinaryTreeNode::InOrderTraverse(BinaryTreeNode* root) {
-    // TODO
+    if(!root) return;
+    InOrderTraverse(root->left);
+    cout<<root->name<<endl;
+    InOrderTraverse(root->right);
 }
 
 // 后序遍历的实现：先后序遍历左子树，再后序遍历右子树，最后访问根节点
 void BinaryTreeNode::PostOrderTraverse(BinaryTreeNode* root) {
-    //TODO
+    if(!root) return;
+    auto left = root->left;
+    auto right = root->right;
+    PostOrderTraverse(left);
+    PostOrderTraverse(right);
+    cout<<root->name<<endl;
 }
 
 // 层次遍历的实现：使用队列，按层级从上到下、从左到右遍历树
 void BinaryTreeNode::LevelOrderTraverse(BinaryTreeNode* root) {
-    // TODO
+    queue<BinaryTreeNode*> level;
+    level.push(root);
+    while(!level.empty()){
+        cout<<root->name<<endl;
+        auto node = level.front();
+        level.pop();
+        if(node->left) level.push(node->left);
+        if(node->right) level.push(node->right);
+    }
 }
 
 // 辅助函数：通过中序和后序遍历构建树（递归实现）
 BinaryTreeNode* BinaryTreeNode::buildTreeFromInorderPostorderHelper(const std::vector<std::string>& inorder, int inStart, int inEnd,
                                                                     const std::vector<std::string>& postorder, int postStart, int postEnd,
                                                                     std::unordered_map<std::string, int>& inorderMap) {
-    // 递归终止条件
-    // TODO
-
-    // 后序遍历的最后一个元素是根节点
-    // TODO
-
-    // 获取根节点在中序遍历中的位置并计算左子树的大小
-    // TODO
-
-    // 递归构建左子树和右子树
-    // TODO
+    if(inStart>inEnd||postStart>postEnd){
+        return nullptr;
+    }
+    BinaryTreeNode* root = new BinaryTreeNode;
+    root->name = postorder[postEnd];
+    int root_index = inorderMap[root->name];
+    int leftsize = root_index-inStart;
+    root->left = buildTreeFromInorderPostorderHelper(inorder,inStart,root_index-1,postorder,postStart,postStart+leftsize-1,inorderMap);
+    root->right = buildTreeFromInorderPostorderHelper(inorder,root_index+1,inEnd,postorder,postStart+leftsize,postEnd-1,inorderMap);
+    return root;
 
 }
 
@@ -63,17 +80,17 @@ BinaryTreeNode* BinaryTreeNode::buildTreeFromInorderPreorderHelper(const vector<
                                                                      const vector<string>& preorder, int preStart, int preEnd, 
                                                                      unordered_map<string, int>& inorderMap) {
     // 递归终止条件
-    // TODO
-
+    if(inStart>inEnd||preStart>preEnd) return nullptr;
     // 前序遍历的第一个元素是根节点
-    // TODO
-
-    // 获取根节点在中序遍历中的位置并计算左子树的大小
-    // TODO
-
-    // 递归构建左子树和右子树
-    // TODO
-    
+    BinaryTreeNode* root = new BinaryTreeNode;
+    // BinaryTreeNode rt = BinaryTreeNode();
+    // BinaryTreeNode* root = &rt;
+    root->name = preorder[preStart];
+    int root_index = inorderMap[root->name];
+    int leftsize = root_index-inStart;
+    root->left = buildTreeFromInorderPreorderHelper(inorder,inStart,root_index-1,preorder,preStart+1,preStart+leftsize,inorderMap);
+    root->right = buildTreeFromInorderPreorderHelper(inorder,root_index+1,inEnd,preorder,preStart+leftsize+1,preEnd,inorderMap); 
+    return root;
 }
 
 // 构建树的函数，调用辅助函数来构建二叉树

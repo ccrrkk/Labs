@@ -1,0 +1,3 @@
+D:/Labs/Lab3/BinaryTree/build/CMakeFiles/test.dir
+D:/Labs/Lab3/BinaryTree/build/CMakeFiles/edit_cache.dir
+D:/Labs/Lab3/BinaryTree/build/CMakeFiles/rebuild_cache.dir

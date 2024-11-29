@@ -74,7 +74,7 @@ public:
     //    preStart - 当前子树前序遍历的开始位置
     //    preEnd - 当前子树前序遍历的结束位置
     //    inorderMap - 用于快速查找中序遍历节点的值到索引的映射
-    // 返回:
+    // 返:回
     //    返回构建的二叉树子树的根节点
     static BinaryTreeNode* buildTreeFromInorderPreorderHelper(const vector<string>& inorder, 
                                                               int inStart, int inEnd, 

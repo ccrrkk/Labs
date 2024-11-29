@@ -9,6 +9,7 @@ using namespace std;
 
 void testBinaryTreeTraversal() {
     // 测试从中序和前序构建二叉树
+    cout<<"here"<<endl;
     vector<string> inorder = {"D", "B", "E", "A", "F", "C"};
     vector<string> preorder = {"A", "B", "D", "E", "C", "F"};
     BinaryTreeNode* treeFromPreIn = BinaryTreeNode::buildTreeFromInorderPreorder(inorder, preorder);
