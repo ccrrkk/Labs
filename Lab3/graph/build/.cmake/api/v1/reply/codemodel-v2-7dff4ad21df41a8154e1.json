@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/DataStructureExperiment/Experiments/Lab3/graph/build",
-		"source" : "D:/DataStructureExperiment/Experiments/Lab3/graph"
+		"build" : "D:/Labs/Lab3/graph/build",
+		"source" : "D:/Labs/Lab3/graph"
 	},
 	"version" : 
 	{

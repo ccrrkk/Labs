@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/DataStructureExperiment/Experiments/Lab3/graph/src/dijkstra.cpp" "CMakeFiles/main.dir/src/dijkstra.cpp.obj" "gcc" "CMakeFiles/main.dir/src/dijkstra.cpp.obj.d"
-  "D:/DataStructureExperiment/Experiments/Lab3/graph/src/graph.cpp" "CMakeFiles/main.dir/src/graph.cpp.obj" "gcc" "CMakeFiles/main.dir/src/graph.cpp.obj.d"
-  "D:/DataStructureExperiment/Experiments/Lab3/graph/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
+  "D:/Labs/Lab3/graph/src/dijkstra.cpp" "CMakeFiles/main.dir/src/dijkstra.cpp.obj" "gcc" "CMakeFiles/main.dir/src/dijkstra.cpp.obj.d"
+  "D:/Labs/Lab3/graph/src/graph.cpp" "CMakeFiles/main.dir/src/graph.cpp.obj" "gcc" "CMakeFiles/main.dir/src/graph.cpp.obj.d"
+  "D:/Labs/Lab3/graph/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,4 +1,4 @@
-# Install script for directory: D:/DataStructureExperiment/Experiments/Lab3/graph
+# Install script for directory: D:/Labs/Lab3/graph
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/download/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/bin/objdump.exe")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/DataStructureExperiment/Experiments/Lab3/graph/build/install_local_manifest.txt"
+  file(WRITE "D:/Labs/Lab3/graph/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/DataStructureExperiment/Experiments/Lab3/graph/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/Labs/Lab3/graph/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

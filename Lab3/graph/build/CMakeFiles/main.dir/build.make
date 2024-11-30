@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CMake\bin\cmake.exe
+CMAKE_COMMAND = D:\Cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\CMake\bin\cmake.exe -E rm -f
+RM = D:\Cmake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\DataStructureExperiment\Experiments\Lab3\graph
+CMAKE_SOURCE_DIR = D:\Labs\Lab3\graph
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\DataStructureExperiment\Experiments\Lab3\graph\build
+CMAKE_BINARY_DIR = D:\Labs\Lab3\graph\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,46 +72,46 @@ CMakeFiles/main.dir/codegen:
 .PHONY : CMakeFiles/main.dir/codegen
 
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/main.cpp.obj: D:/DataStructureExperiment/Experiments/Lab3/graph/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.obj: D:/Labs/Lab3/graph/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DataStructureExperiment\Experiments\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c D:\DataStructureExperiment\Experiments\Lab3\graph\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Labs\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c D:\Labs\Lab3\graph\src\main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\DataStructureExperiment\Experiments\Lab3\graph\src\main.cpp > CMakeFiles\main.dir\src\main.cpp.i
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Labs\Lab3\graph\src\main.cpp > CMakeFiles\main.dir\src\main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\DataStructureExperiment\Experiments\Lab3\graph\src\main.cpp -o CMakeFiles\main.dir\src\main.cpp.s
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Labs\Lab3\graph\src\main.cpp -o CMakeFiles\main.dir\src\main.cpp.s
 
 CMakeFiles/main.dir/src/graph.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/graph.cpp.obj: D:/DataStructureExperiment/Experiments/Lab3/graph/src/graph.cpp
+CMakeFiles/main.dir/src/graph.cpp.obj: D:/Labs/Lab3/graph/src/graph.cpp
 CMakeFiles/main.dir/src/graph.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DataStructureExperiment\Experiments\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/graph.cpp.obj"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph.cpp.obj -MF CMakeFiles\main.dir\src\graph.cpp.obj.d -o CMakeFiles\main.dir\src\graph.cpp.obj -c D:\DataStructureExperiment\Experiments\Lab3\graph\src\graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Labs\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/graph.cpp.obj"
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/graph.cpp.obj -MF CMakeFiles\main.dir\src\graph.cpp.obj.d -o CMakeFiles\main.dir\src\graph.cpp.obj -c D:\Labs\Lab3\graph\src\graph.cpp
 
 CMakeFiles/main.dir/src/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/graph.cpp.i"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\DataStructureExperiment\Experiments\Lab3\graph\src\graph.cpp > CMakeFiles\main.dir\src\graph.cpp.i
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Labs\Lab3\graph\src\graph.cpp > CMakeFiles\main.dir\src\graph.cpp.i
 
 CMakeFiles/main.dir/src/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/graph.cpp.s"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\DataStructureExperiment\Experiments\Lab3\graph\src\graph.cpp -o CMakeFiles\main.dir\src\graph.cpp.s
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Labs\Lab3\graph\src\graph.cpp -o CMakeFiles\main.dir\src\graph.cpp.s
 
 CMakeFiles/main.dir/src/dijkstra.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/dijkstra.cpp.obj: D:/DataStructureExperiment/Experiments/Lab3/graph/src/dijkstra.cpp
+CMakeFiles/main.dir/src/dijkstra.cpp.obj: D:/Labs/Lab3/graph/src/dijkstra.cpp
 CMakeFiles/main.dir/src/dijkstra.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\DataStructureExperiment\Experiments\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/dijkstra.cpp.obj"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/dijkstra.cpp.obj -MF CMakeFiles\main.dir\src\dijkstra.cpp.obj.d -o CMakeFiles\main.dir\src\dijkstra.cpp.obj -c D:\DataStructureExperiment\Experiments\Lab3\graph\src\dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Labs\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/dijkstra.cpp.obj"
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/dijkstra.cpp.obj -MF CMakeFiles\main.dir\src\dijkstra.cpp.obj.d -o CMakeFiles\main.dir\src\dijkstra.cpp.obj -c D:\Labs\Lab3\graph\src\dijkstra.cpp
 
 CMakeFiles/main.dir/src/dijkstra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/dijkstra.cpp.i"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\DataStructureExperiment\Experiments\Lab3\graph\src\dijkstra.cpp > CMakeFiles\main.dir\src\dijkstra.cpp.i
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Labs\Lab3\graph\src\dijkstra.cpp > CMakeFiles\main.dir\src\dijkstra.cpp.i
 
 CMakeFiles/main.dir/src/dijkstra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/dijkstra.cpp.s"
-	D:\download\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\DataStructureExperiment\Experiments\Lab3\graph\src\dijkstra.cpp -o CMakeFiles\main.dir\src\dijkstra.cpp.s
+	D:\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Labs\Lab3\graph\src\dijkstra.cpp -o CMakeFiles\main.dir\src\dijkstra.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -129,7 +129,7 @@ main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\DataStructureExperiment\Experiments\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Labs\Lab3\graph\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\DataStructureExperiment\Experiments\Lab3\graph D:\DataStructureExperiment\Experiments\Lab3\graph D:\DataStructureExperiment\Experiments\Lab3\graph\build D:\DataStructureExperiment\Experiments\Lab3\graph\build D:\DataStructureExperiment\Experiments\Lab3\graph\build\CMakeFiles\main.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Labs\Lab3\graph D:\Labs\Lab3\graph D:\Labs\Lab3\graph\build D:\Labs\Lab3\graph\build D:\Labs\Lab3\graph\build\CMakeFiles\main.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

@@ -1,5 +1,19 @@
 #include "../include/dijkstra.h"
 #include <iostream>
+
+
+void printgraph(graph g){
+    for(int i=0;i<g.vertex_num;i++){
+        std::cout << i << "  list:";
+        auto p = g.vertex[i].head;
+        while(p){            
+            std::cout<<"  adj:"<<p->adj<<"  weight:"<<p->weight;
+            p = p->next;
+        }
+        std::cout<<std::endl;
+    }
+}
+
 int main()
 {
     
@@ -18,6 +32,8 @@ int main()
     std::cout << "--------------------------" << std::endl;
     graph g(n, m);
     g.init(u, v, w);
+    // std::cout<<"create successfully!"<<std::endl;
+    // printgraph(g);
     g.dfs(s);
     std::cout << std::endl << std::endl;
 
@@ -26,4 +42,5 @@ int main()
     std::cout << "dijkstra" << std::endl;
     std::cout << "--------------------------" << std::endl;
     dij.ssp(s);
+    dij.print(5);
 }
