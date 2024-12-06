@@ -10,11 +10,11 @@ void graph::init(int u[],int v[],int w[])
         node->weight = w[i];
         node->next = vertex[u[i]].head;
         vertex[u[i]].head = node;
-        struct Edge* nodej = new Edge;
-        nodej->adj = u[i];
-        nodej->weight = w[i];
-        nodej->next = vertex[v[i]].head;
-        vertex[v[i]].head = nodej;
+        // struct Edge* nodej = new Edge;
+        // nodej->adj = u[i];
+        // nodej->weight = w[i];
+        // nodej->next = vertex[v[i]].head;
+        // vertex[v[i]].head = nodej;
     }
 }
 void graph::dfs(int s) {

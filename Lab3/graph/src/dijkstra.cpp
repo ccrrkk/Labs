@@ -34,6 +34,15 @@ void dijkstra::ssp(int s)
             e = e->next;
         }
     }
+    for(int i=0;i<g.vertex_num;i++){
+        if(i==s) {
+            std::cout<<i<<":"<<std::endl;
+            continue;
+        }
+        std::cout<<i<<":"<<vertex[i].dist<<" ";
+        print(i);
+        std::cout<<std::endl;
+    }
 
 }
 void dijkstra::print(int u)

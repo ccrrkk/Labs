@@ -35,8 +35,8 @@ ExpressionBinaryTreeNode* ExpressionBinaryTreeNode::buildFromPostfix(const strin
             s.pop();
             auto node2 = s.top();
             s.pop();
-            node->left = node1;
-            node->right = node2;
+            node->right = node1;
+            node->left = node2;
             s.push(node);
         }
         else{
